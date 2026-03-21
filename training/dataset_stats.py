@@ -1,7 +1,8 @@
 """
 Dataset statistics for MasterDataset (train/val/test class folders).
 Prints class counts and optionally validates images (skip corrupted).
-"""
+"""   
+import argparse
 from pathlib import Path
 from PIL import Image
 
@@ -39,21 +40,28 @@ def count_and_validate_images(folder: Path, validate: bool = True):
     return counts, skipped
 
 
-def print_dataset_stats(base_dir: str = "data/MasterDataset"):
-    """Print statistics for train/val/test under base_dir."""
+def print_dataset_stats(base_dir: str = "data/MasterDataset", validate: bool = False):
+    """
+    Print statistics for train/val/test under base_dir.
+
+    Args:
+        base_dir: Dataset root directory (contains train/val/test).
+        validate: If True, try to open/verify each image and skip corrupted ones.
+                  This is more accurate but can be slow for large datasets.
+    """
     base = Path(base_dir)
     for split in ("train", "val", "test"):
         path = base / split
         if not path.exists():
             print(f"[{split}] path not found: {path}")
             continue
-        counts, skipped = count_and_validate_images(path, validate=True)
+        counts, skipped = count_and_validate_images(path, validate=validate)
         total = sum(counts.values())
         print(f"\n--- {split} ---")
         print(f"Classes: {list(counts.keys())}")
         print(f"Per-class counts: {counts}")
         print(f"Total images: {total}")
-        if skipped:
+        if validate and skipped:
             print(f"Skipped (corrupted): {len(skipped)}")
     if (base / "metadata").exists():
         print("\n--- metadata ---")
@@ -62,4 +70,17 @@ def print_dataset_stats(base_dir: str = "data/MasterDataset"):
 
 
 if __name__ == "__main__":
-    print_dataset_stats()
+    parser = argparse.ArgumentParser(description="AgroVision dataset statistics")
+    parser.add_argument(
+        "--base-dir",
+        type=str,
+        default="data/MasterDataset",
+        help="Dataset root (contains train/val/test)",
+    )
+    parser.add_argument(
+        "--validate",
+        action="store_true",
+        help="Verify images with PIL and skip corrupted files (slower).",
+    )
+    args = parser.parse_args()
+    print_dataset_stats(base_dir=args.base_dir, validate=args.validate)
