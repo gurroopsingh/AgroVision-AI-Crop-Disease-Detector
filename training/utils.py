@@ -96,7 +96,11 @@ def load_checkpoint(
         Dict with: model_state_dict, epoch, best_metric, class_names, model_name,
         and optionally optimizer_state_dict.
     """
-    ckpt = torch.load(Path(path), map_location=device)
+    ckpt = torch.load(Path(path), map_location=device, weights_only=False)
+    required = {"model_state_dict", "epoch", "best_metric"}
+    missing = required.difference(ckpt.keys())
+    if missing:
+        raise ValueError(f"Checkpoint missing required keys: {sorted(missing)}")
     return ckpt
 
 

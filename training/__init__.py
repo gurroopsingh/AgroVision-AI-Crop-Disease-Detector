@@ -6,6 +6,7 @@ from .data_loader import CropDiseaseDataset, get_dataloaders
 from .dataset_stats import print_dataset_stats, count_and_validate_images
 from .utils import EarlyStopping, save_checkpoint, load_checkpoint, MetricTracker
 from .evaluate import evaluate, print_metrics
+from .visualize import plot_confusion_matrix
 
 __all__ = [
     "get_train_transform",
@@ -23,4 +24,5 @@ __all__ = [
     "MetricTracker",
     "evaluate",
     "print_metrics",
+    "plot_confusion_matrix",
 ]
