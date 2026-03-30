@@ -35,9 +35,14 @@ class ResNet18Transfer(nn.Module):
                 param.requires_grad = False
 
     def unfreeze_layer4(self) -> None:
-        """Unfreeze the last residual block (layer4) for optional fine-tuning."""
-        for param in self.backbone.layer4.parameters():
-            param.requires_grad = True
+        """
+        Unfreeze only the last residual block (layer4) for gradual fine-tuning.
+
+        This method keeps earlier backbone layers frozen and leaves the final
+        classifier trainable.
+        """
+        for name, param in self.backbone.named_parameters():
+            param.requires_grad = ("layer4" in name) or ("fc" in name)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return self.backbone(x)
