@@ -1,0 +1,52 @@
+{
+  "cherry_powdery_mildew": {
+    "description": "Powdery mildew appears as white powder-like fungal growth on leaf surfaces, reducing photosynthesis and fruit quality.",
+    "treatment": "Apply sulfur or potassium bicarbonate fungicide at recommended intervals. Remove heavily infected leaves.",
+    "prevention": "Improve canopy airflow through pruning, avoid overhead irrigation, and use resistant varieties when possible."
+  },
+  "apple_apple_scab": {
+    "description": "Apple scab causes dark olive lesions on leaves and fruits, leading to premature leaf drop and cosmetic fruit damage.",
+    "treatment": "Use protective fungicides such as captan or mancozeb during susceptible growth stages.",
+    "prevention": "Sanitize fallen leaves, prune for airflow, and follow a preventive spray schedule in wet seasons."
+  },
+  "apple_black_rot": {
+    "description": "Black rot causes leaf spots, cankers, and fruit rot, often starting from infected dead wood.",
+    "treatment": "Prune and destroy infected branches and mummified fruits. Apply labeled fungicides during active infection periods.",
+    "prevention": "Maintain orchard sanitation, avoid tree stress, and remove dead or wounded tissue promptly."
+  },
+  "corn_common_rust": {
+    "description": "Common rust forms reddish-brown pustules on corn leaves and can reduce yield under severe pressure.",
+    "treatment": "Apply fungicide if disease pressure is high before tasseling, based on local extension guidance.",
+    "prevention": "Plant rust-tolerant hybrids and avoid late planting in regions with regular rust outbreaks."
+  },
+  "corn_northern_leaf_blight": {
+    "description": "Northern leaf blight creates long gray-green lesions that expand and reduce leaf function.",
+    "treatment": "Use triazole or strobilurin fungicides where economically justified.",
+    "prevention": "Rotate crops, manage residue, and select resistant hybrids to reduce inoculum carryover."
+  },
+  "grape_black_rot": {
+    "description": "Grape black rot causes circular leaf lesions and shriveled mummified berries.",
+    "treatment": "Apply fungicides from pre-bloom through fruit set and remove infected clusters.",
+    "prevention": "Prune and destroy mummified berries and improve canopy ventilation."
+  },
+  "potato_early_blight": {
+    "description": "Early blight produces concentric ring lesions on older leaves and can lead to defoliation.",
+    "treatment": "Use protectant fungicides and ensure balanced nutrition, especially adequate potassium.",
+    "prevention": "Rotate crops, use healthy seed tubers, and avoid prolonged leaf wetness."
+  },
+  "potato_late_blight": {
+    "description": "Late blight is a fast-spreading water mold disease causing dark lesions and rapid crop collapse in humid weather.",
+    "treatment": "Apply late-blight-specific fungicides immediately and remove severely infected plants.",
+    "prevention": "Use certified seed, monitor weather-based alerts, and maintain strict field sanitation."
+  },
+  "tomato_early_blight": {
+    "description": "Tomato early blight causes target-like lesions on older foliage, reducing plant vigor and yield.",
+    "treatment": "Spray recommended fungicides and remove infected lower leaves.",
+    "prevention": "Mulch soil, rotate crops, and irrigate at the base to keep foliage dry."
+  },
+  "tomato_late_blight": {
+    "description": "Tomato late blight causes large water-soaked lesions and white sporulation under humid conditions.",
+    "treatment": "Use targeted fungicides early and rogue heavily infected plants.",
+    "prevention": "Ensure spacing for airflow, avoid overhead watering, and remove volunteer host plants."
+  }
+}
