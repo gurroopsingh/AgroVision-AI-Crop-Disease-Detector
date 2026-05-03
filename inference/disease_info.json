@@ -1,52 +1,518 @@
 {
-  "cherry_powdery_mildew": {
-    "description": "Powdery mildew appears as white powder-like fungal growth on leaf surfaces, reducing photosynthesis and fruit quality.",
-    "treatment": "Apply sulfur or potassium bicarbonate fungicide at recommended intervals. Remove heavily infected leaves.",
-    "prevention": "Improve canopy airflow through pruning, avoid overhead irrigation, and use resistant varieties when possible."
-  },
   "apple_apple_scab": {
     "description": "Apple scab causes dark olive lesions on leaves and fruits, leading to premature leaf drop and cosmetic fruit damage.",
     "treatment": "Use protective fungicides such as captan or mancozeb during susceptible growth stages.",
-    "prevention": "Sanitize fallen leaves, prune for airflow, and follow a preventive spray schedule in wet seasons."
+    "prevention": "Sanitize fallen leaves, prune for airflow, and follow a preventive spray schedule in wet seasons.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "apple_black_rot": {
     "description": "Black rot causes leaf spots, cankers, and fruit rot, often starting from infected dead wood.",
     "treatment": "Prune and destroy infected branches and mummified fruits. Apply labeled fungicides during active infection periods.",
-    "prevention": "Maintain orchard sanitation, avoid tree stress, and remove dead or wounded tissue promptly."
+    "prevention": "Maintain orchard sanitation, avoid tree stress, and remove dead or wounded tissue promptly.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "apple_cedar_apple_rust": {
+    "description": "Apple Cedar Apple Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Cedar Apple Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Cedar Apple Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "bean_angular_leaf_spot": {
+    "description": "Bean Angular Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Angular Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Angular Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "bean_rust": {
+    "description": "Bean Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "bell_pepper_bacterial_spot": {
+    "description": "Bell Pepper Bacterial Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Pepper Bacterial Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Pepper Bacterial Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "cherry_powdery_mildew": {
+    "description": "Powdery mildew appears as white powder-like fungal growth on leaf surfaces, reducing photosynthesis and fruit quality.",
+    "treatment": "Apply sulfur or potassium bicarbonate fungicide at recommended intervals. Remove heavily infected leaves.",
+    "prevention": "Improve canopy airflow through pruning, avoid overhead irrigation, and use resistant varieties when possible.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "corn_cercospora_leaf_spot": {
+    "description": "Corn Cercospora Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Cercospora Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Cercospora Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "corn_common_rust": {
     "description": "Common rust forms reddish-brown pustules on corn leaves and can reduce yield under severe pressure.",
     "treatment": "Apply fungicide if disease pressure is high before tasseling, based on local extension guidance.",
-    "prevention": "Plant rust-tolerant hybrids and avoid late planting in regions with regular rust outbreaks."
+    "prevention": "Plant rust-tolerant hybrids and avoid late planting in regions with regular rust outbreaks.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "corn_gray_leaf_spot": {
+    "description": "Corn Gray Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Gray Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Gray Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "corn_northern_leaf_blight": {
     "description": "Northern leaf blight creates long gray-green lesions that expand and reduce leaf function.",
     "treatment": "Use triazole or strobilurin fungicides where economically justified.",
-    "prevention": "Rotate crops, manage residue, and select resistant hybrids to reduce inoculum carryover."
+    "prevention": "Rotate crops, manage residue, and select resistant hybrids to reduce inoculum carryover.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "cotton_aphids": {
+    "description": "Cotton Aphids can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Aphids. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Aphids.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "cotton_army_worm": {
+    "description": "Cotton Army Worm can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Army Worm. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Army Worm.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "cotton_bacterial_blight": {
+    "description": "Cotton Bacterial Blight can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Bacterial Blight. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Bacterial Blight.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "cotton_powdery_mildew": {
+    "description": "Cotton Powdery Mildew can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Powdery Mildew. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Powdery Mildew.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "cotton_target_spot": {
+    "description": "Cotton Target Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Target Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Target Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "diseased_cucumber": {
+    "description": "Diseased Cucumber can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Cucumber. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Cucumber.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "diseased_rice": {
+    "description": "Diseased Rice can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Rice. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Rice.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "grape_black_rot": {
     "description": "Grape black rot causes circular leaf lesions and shriveled mummified berries.",
     "treatment": "Apply fungicides from pre-bloom through fruit set and remove infected clusters.",
-    "prevention": "Prune and destroy mummified berries and improve canopy ventilation."
+    "prevention": "Prune and destroy mummified berries and improve canopy ventilation.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "grape_esca_black_measles": {
+    "description": "Grape Esca Black Measles can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Esca Black Measles. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Esca Black Measles.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "grape_leaf_blight": {
+    "description": "Grape Leaf Blight can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Leaf Blight. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Leaf Blight.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "groundnut_early_leaf_spot": {
+    "description": "Groundnut Early Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Early Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Early Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "groundnut_late_leaf_spot": {
+    "description": "Groundnut Late Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Late Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Late Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "groundnut_nutrition_deficiency": {
+    "description": "Groundnut Nutrition Deficiency can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Nutrition Deficiency. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Nutrition Deficiency.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "groundnut_rust": {
+    "description": "Groundnut Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "guava_anthracnose": {
+    "description": "Guava Anthracnose can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Anthracnose. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Anthracnose.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "guava_fruit_fly": {
+    "description": "Guava Fruit Fly can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Fruit Fly. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Fruit Fly.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "healthy_apple": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_bean": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_bell_pepper": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_cherry": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_corn": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_cotton": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_cucumber": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_grape": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_groundnut": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_guava": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_lemon": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_peach": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_potato": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_pumpkin": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_rice": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_strawberry": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_sugarcane": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_tomato": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "healthy_wheat": {
+    "description": "The Healthy plant appears healthy with no visible signs of disease.",
+    "treatment": "No treatment required. Continue regular monitoring.",
+    "prevention": "Maintain good agricultural practices: proper spacing, irrigation, and sanitation.",
+    "fertilizer": "Apply balanced NPK fertilizer as per crop schedule and soil test. Organic compost is beneficial for long-term soil health."
+  },
+  "lemon_anthracnose": {
+    "description": "Lemon Anthracnose can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Anthracnose. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Anthracnose.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_bacterial_blight": {
+    "description": "Lemon Bacterial Blight can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Bacterial Blight. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Bacterial Blight.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_citrus_canker": {
+    "description": "Lemon Citrus Canker can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Citrus Canker. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Citrus Canker.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_curl_virus": {
+    "description": "Lemon Curl Virus can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Curl Virus. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Curl Virus.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_deficiency": {
+    "description": "Lemon Deficiency can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Deficiency. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Deficiency.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_dry_leaf": {
+    "description": "Lemon Dry Leaf can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Dry Leaf. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Dry Leaf.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_sooty_mould": {
+    "description": "Lemon Sooty Mould can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Sooty Mould. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Sooty Mould.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "lemon_spider_mites": {
+    "description": "Lemon Spider Mites can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Spider Mites. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Spider Mites.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "peach_bacterial_spot": {
+    "description": "Peach Bacterial Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Bacterial Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Bacterial Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "potato_early_blight": {
     "description": "Early blight produces concentric ring lesions on older leaves and can lead to defoliation.",
     "treatment": "Use protectant fungicides and ensure balanced nutrition, especially adequate potassium.",
-    "prevention": "Rotate crops, use healthy seed tubers, and avoid prolonged leaf wetness."
+    "prevention": "Rotate crops, use healthy seed tubers, and avoid prolonged leaf wetness.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "potato_late_blight": {
     "description": "Late blight is a fast-spreading water mold disease causing dark lesions and rapid crop collapse in humid weather.",
     "treatment": "Apply late-blight-specific fungicides immediately and remove severely infected plants.",
-    "prevention": "Use certified seed, monitor weather-based alerts, and maintain strict field sanitation."
+    "prevention": "Use certified seed, monitor weather-based alerts, and maintain strict field sanitation.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "pumpkin_bacterial_leaf_spot": {
+    "description": "Pumpkin Bacterial Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Bacterial Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Bacterial Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "pumpkin_downy_mildew": {
+    "description": "Pumpkin Downy Mildew can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Downy Mildew. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Downy Mildew.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "pumpkin_mosaic_disease": {
+    "description": "Pumpkin Mosaic Disease can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Mosaic Disease. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Mosaic Disease.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "pumpkin_powdery_mildew": {
+    "description": "Pumpkin Powdery Mildew can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Powdery Mildew. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Powdery Mildew.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "strawberry_leaf_scorch": {
+    "description": "Strawberry Leaf Scorch can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Leaf Scorch. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Leaf Scorch.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "sugarcane_bacterial_blight": {
+    "description": "Sugarcane Bacterial Blight can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Bacterial Blight. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Bacterial Blight.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "sugarcane_mosaic": {
+    "description": "Sugarcane Mosaic can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Mosaic. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Mosaic.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "sugarcane_red_rot": {
+    "description": "Sugarcane Red Rot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Red Rot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Red Rot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "sugarcane_rust": {
+    "description": "Sugarcane Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "sugarcane_yellow_leaf_disease": {
+    "description": "Sugarcane Yellow Leaf Disease can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Yellow Leaf Disease. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Yellow Leaf Disease.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "tomato_bacterial_spot": {
+    "description": "Tomato Bacterial Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Bacterial Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Bacterial Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "tomato_early_blight": {
     "description": "Tomato early blight causes target-like lesions on older foliage, reducing plant vigor and yield.",
     "treatment": "Spray recommended fungicides and remove infected lower leaves.",
-    "prevention": "Mulch soil, rotate crops, and irrigate at the base to keep foliage dry."
+    "prevention": "Mulch soil, rotate crops, and irrigate at the base to keep foliage dry.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   },
   "tomato_late_blight": {
     "description": "Tomato late blight causes large water-soaked lesions and white sporulation under humid conditions.",
     "treatment": "Use targeted fungicides early and rogue heavily infected plants.",
-    "prevention": "Ensure spacing for airflow, avoid overhead watering, and remove volunteer host plants."
+    "prevention": "Ensure spacing for airflow, avoid overhead watering, and remove volunteer host plants.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "tomato_septoria_leaf_spot": {
+    "description": "Tomato Septoria Leaf Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Septoria Leaf Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Septoria Leaf Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "tomato_yellow_leaf_curl_virus": {
+    "description": "Tomato Yellow Leaf Curl Virus can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Yellow Leaf Curl Virus. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Yellow Leaf Curl Virus.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_aphid": {
+    "description": "Wheat Aphid can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Aphid. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Aphid.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_black_rust": {
+    "description": "Wheat Black Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Black Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Black Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_blast": {
+    "description": "Wheat Blast can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Blast. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Blast.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_brown_rust": {
+    "description": "Wheat Brown Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Brown Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Brown Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_common_root_rot": {
+    "description": "Wheat Common Root Rot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Common Root Rot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Common Root Rot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_fusarium_head_blight": {
+    "description": "Wheat Fusarium Head Blight can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Fusarium Head Blight. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Fusarium Head Blight.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_leaf_blight": {
+    "description": "Wheat Leaf Blight can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Leaf Blight. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Leaf Blight.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_mildew": {
+    "description": "Wheat Mildew can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Mildew. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Mildew.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_mite": {
+    "description": "Wheat Mite can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Mite. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Mite.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_septoria": {
+    "description": "Wheat Septoria can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Septoria. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Septoria.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_smut": {
+    "description": "Wheat Smut can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Smut. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Smut.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_stem_fly": {
+    "description": "Wheat Stem Fly can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Stem Fly. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Stem Fly.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_tan_spot": {
+    "description": "Wheat Tan Spot can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Tan Spot. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Tan Spot.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
+  },
+  "wheat_yellow_rust": {
+    "description": "Wheat Yellow Rust can cause significant damage to the plant foliage and reduce overall yield if left untreated.",
+    "treatment": "Apply recommended fungicides or pesticides for Yellow Rust. Remove and destroy heavily infected plant parts immediately.",
+    "prevention": "Practice crop rotation, ensure adequate spacing for airflow, and sanitize tools to prevent Yellow Rust.",
+    "fertilizer": "Maintain balanced nutrition to improve plant immunity. Avoid excessive nitrogen application which can promote succulent growth susceptible to infections."
   }
 }

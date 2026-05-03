@@ -1,0 +1,6 @@
+venv310/
+data/
+__pycache__/
+outputs/uploads/
+models/best_model.pth
+*.pyc
