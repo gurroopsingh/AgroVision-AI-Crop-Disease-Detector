@@ -1,5 +1,5 @@
-import { useState, useRef } from 'react';
-import { Camera, Upload, RefreshCw, CheckCircle, Image as ImageIcon } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { Camera, Upload, RefreshCw, CheckCircle, Image as ImageIcon, Sparkles } from 'lucide-react';
 import PredictionResult from '../components/PredictionResult';
 import PredictionHistory from '../components/PredictionHistory';
 
@@ -8,6 +8,7 @@ export default function Home({ t, lang }) {
   const [preview, setPreview] = useState(null);
   const [isCameraActive, setIsCameraActive] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [loadingPhase, setLoadingPhase] = useState(''); // 'model' | 'gemini'
   const [result, setResult] = useState(null);
   const [history, setHistory] = useState([]);
   const [error, setError] = useState(null);
@@ -71,11 +72,15 @@ export default function Home({ t, lang }) {
 
   const handlePredict = async () => {
     if (!file) return;
-    
+
     setLoading(true);
+    setLoadingPhase('model');
     setError(null);
     const formData = new FormData();
     formData.append('file', file);
+
+    // After ~800 ms switch the message to reflect Gemini phase
+    const phaseTimer = setTimeout(() => setLoadingPhase('gemini'), 800);
 
     try {
       const res = await fetch(`/predict?lang=${lang}`, {
@@ -84,7 +89,7 @@ export default function Home({ t, lang }) {
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || t.error);
-      
+
       setResult(data);
       setHistory(prev => {
         const newEntry = { preview, data };
@@ -93,7 +98,9 @@ export default function Home({ t, lang }) {
     } catch (err) {
       setError(err.message);
     } finally {
+      clearTimeout(phaseTimer);
       setLoading(false);
+      setLoadingPhase('');
     }
   };
 
@@ -153,12 +160,22 @@ export default function Home({ t, lang }) {
             )}
 
             {preview && (
-              <button 
-                onClick={handlePredict} 
+              <button
+                onClick={handlePredict}
                 disabled={loading}
-                className="mt-8 w-full flex items-center justify-center gap-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold py-4 rounded-2xl shadow-[0_8px_30px_rgb(16,185,129,0.3)] hover:shadow-[0_8px_30px_rgb(16,185,129,0.5)] hover:-translate-y-1 transition-all disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none">
-                {loading ? <RefreshCw className="animate-spin" size={24} /> : <CheckCircle size={24} />}
-                {loading ? t.processing : t.predict}
+                className="mt-8 w-full flex flex-col items-center justify-center gap-1 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-bold py-4 rounded-2xl shadow-[0_8px_30px_rgb(16,185,129,0.3)] hover:shadow-[0_8px_30px_rgb(16,185,129,0.5)] hover:-translate-y-1 transition-all disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none"
+              >
+                <span className="flex items-center gap-3">
+                  {loading ? <RefreshCw className="animate-spin" size={22} /> : <CheckCircle size={22} />}
+                  {loading
+                    ? (loadingPhase === 'gemini'
+                        ? <span className="flex items-center gap-1.5">Consulting Gemini AI <Sparkles size={14} className="animate-pulse" /></span>
+                        : t.processing)
+                    : t.predict}
+                </span>
+                {loading && loadingPhase === 'gemini' && (
+                  <span className="text-xs font-normal opacity-80">Generating detailed analysis…</span>
+                )}
               </button>
             )}
             
