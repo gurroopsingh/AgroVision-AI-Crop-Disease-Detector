@@ -106,4 +106,4 @@ AgroVision/
 * **AI & Machine Learning:** ResNet-18 (Vision), Gemini 2.5 Flash (LLM)
 
 ---
-*Developed by Gurroop Singh*
+*Developed by Gurroop Singh & Hardik*
