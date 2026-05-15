@@ -27,7 +27,18 @@ AgroVision is an advanced, AI-powered smart plant health assistant. It combines 
 
 ---
 
-## 🚀 Getting Started
+## 🌍 Live Deployment & Architecture
+
+AgroVision is deployed completely for free using a **decoupled architecture**:
+
+1. **Frontend (Vercel):** The React/Vite UI is hosted on Vercel for lightning-fast global edge delivery.
+   - **Live Demo:** [https://agro-vision-ai-crop-disease-detecto.vercel.app/](https://agro-vision-ai-crop-disease-detecto.vercel.app/)
+2. **Backend (Hugging Face Spaces):** The heavy PyTorch FastAPI server is hosted on Hugging Face Spaces using a custom Docker container, taking advantage of their free 16GB RAM tier.
+3. **Generative AI:** The backend securely communicates with the Google Gemini API to generate custom agronomic insights.
+
+---
+
+## 🚀 Local Getting Started
 
 ### Prerequisites
 - **Python 3.10+**
