@@ -83,7 +83,8 @@ export default function Home({ t, lang }) {
     const phaseTimer = setTimeout(() => setLoadingPhase('gemini'), 800);
 
     try {
-      const res = await fetch(`/predict?lang=${lang}`, {
+      const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+      const res = await fetch(`${API_BASE_URL}/predict?lang=${lang}`, {
         method: 'POST',
         body: formData,
       });

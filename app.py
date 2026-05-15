@@ -24,6 +24,7 @@ from typing import Any, Dict, List, Optional
 import torch
 import torch.nn as nn
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image, ImageOps
 
 # Load .env so GEMINI_API_KEY can be set there during local dev
@@ -252,6 +253,15 @@ app = FastAPI(
     description="AI-powered crop disease detection backend with Gemini AI insights.",
     version="3.0.0",
     lifespan=lifespan,
+)
+
+# Enable CORS so the Vercel frontend can make requests to this backend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, you can replace "*" with your Vercel URL (e.g. ["https://agrovision-ai.vercel.app"])
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 

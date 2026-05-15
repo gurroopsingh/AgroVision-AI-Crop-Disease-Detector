@@ -9,7 +9,8 @@ export default function Encyclopedia({ t, lang }) {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`/disease-info?lang=${lang}`)
+    const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+    fetch(`${API_BASE_URL}/disease-info?lang=${lang}`)
       .then(res => res.json())
       .then(d => {
         setData(d);
